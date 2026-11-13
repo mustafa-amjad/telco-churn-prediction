@@ -1,11 +1,4 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-xgboost
-shap
-jupyter
-streamlit
-plotly
-imbalanced-learn
+streamlit>=1.50
+pandas>=2.2
+scikit-learn==1.9.0
+joblib>=1.4

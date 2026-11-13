@@ -1,0 +1,44 @@
+# Brand theme shared across Mustafa Amjad's Streamlit apps.
+# Ivory backgrounds, deep-emerald accents, charcoal text, one gold accent.
+
+[theme]
+base = "light"
+primaryColor = "#065F46"
+backgroundColor = "#FAFAF7"
+secondaryBackgroundColor = "#F0F0EA"
+textColor = "#1F2937"
+linkColor = "#065F46"
+borderColor = "#DEDED6"
+showWidgetBorder = true
+showSidebarBorder = true
+
+font = "'Public Sans':https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&display=swap"
+headingFont = "'Schibsted Grotesk':https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+baseFontSize = 15
+headingFontSizes = ["34px", "24px", "19px", "16px", "14px", "13px"]
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+baseRadius = "6px"
+buttonRadius = "6px"
+linkUnderline = false
+
+greenColor = "#065F46"
+orangeColor = "#CA8A04"
+yellowColor = "#CA8A04"
+redColor = "#B42318"
+blueColor = "#1F4E79"
+grayColor = "#6B7280"
+
+chartCategoricalColors = ["#065F46", "#CA8A04", "#1F2937", "#6B9E8C", "#B42318", "#9CA3AF"]
+chartSequentialColors = ["#ECF5F1", "#D3E8DF", "#B3D6C8", "#8FC1AE", "#68A992", "#438F76", "#25775F", "#0F654F", "#065F46", "#044332"]
+
+dataframeHeaderBackgroundColor = "#F0F0EA"
+dataframeBorderColor = "#DEDED6"
+
+[theme.sidebar]
+backgroundColor = "#F3F3EE"
+secondaryBackgroundColor = "#E8E8E1"
+borderColor = "#DEDED6"
+
+[client]
+toolbarMode = "minimal"

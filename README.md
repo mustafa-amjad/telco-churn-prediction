@@ -62,7 +62,7 @@ The top churn drivers are **tenure**, **monthly charges**, **contract type**, **
 - Contract type is the most actionable lever: pushing customers toward longer contracts targets the biggest churn gap.
 
 ## The app (ChurnSight)
-A Streamlit dashboard that loads the trained model, takes a customer's details, and returns their churn probability and risk level using the tuned 0.40 threshold.
+A Streamlit app that loads the trained model, scores a customer's churn probability with the tuned 0.40 threshold, explains the main risk signals, suggests retention actions, and shows how each action would change the score.
 
 ## Run it locally
 
@@ -75,19 +75,21 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-To retrain, open `notebooks/01_EDA_and_modeling.ipynb`.
+To retrain, install `requirements-notebook.txt` and open `notebooks/01_EDA_and_modeling.ipynb`.
 
 ## Project structure
 
 ```
 telco-churn-prediction/
-├── app.py                         # Streamlit app (ChurnSight)
+├── app.py                         # Streamlit UI (ChurnSight)
+├── churn/model.py                 # encoding, scoring, risk rules, what-if
 ├── data/                          # raw IBM Telco dataset
 ├── model/                         # trained model, scaler, feature names, threshold
 ├── notebooks/
 │   └── 01_EDA_and_modeling.ipynb  # EDA, modeling, SHAP, threshold tuning
 ├── outputs/                       # charts used in this README
-├── requirements.txt
+├── requirements.txt               # app dependencies
+├── requirements-notebook.txt      # notebook dependencies
 └── LICENSE
 ```
 
