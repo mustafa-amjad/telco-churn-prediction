@@ -1,5 +1,7 @@
 # ChurnSight: Telco Customer Churn Prediction
 
+**Live demo:** [churnsight-mustafa.streamlit.app](https://churnsight-mustafa.streamlit.app)
+
 An end-to-end churn prediction project: exploratory analysis, model benchmarking, SHAP explainability, decision-threshold tuning, and an interactive Streamlit app that scores customers by churn risk.
 
 ## Business problem
